@@ -1,0 +1,37 @@
+- card:
+    type: picture-elements
+    image: /local/sfondo_orologio.png
+    elements:
+    - type: state-label
+    entity: sensor.time
+    style:
+        top: 25%
+        right: 14%
+        color: rgb(255, 255, 255)
+        transform: translate(0%,-50%)
+        pointer-events: none
+        # text-shadow: 1px 1px black
+        font-family: Trebuchet MS
+        font-size: 300%
+    - type: state-label
+    entity: sensor.giorno_numero_mese
+    style:
+        top: 38%
+        right: 14%
+        color: rgb(255, 255, 255)
+        transform: translate(0%,-50%)
+        pointer-events: none
+        # text-shadow: 1px 1px black
+        font-family: Trebuchet MS
+        font-size: 140%
+        opacity: 0.8
+style:
+    background-color: 'rgba(0,0,20,0)'
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    border: 'solid 1px rgba(57,128,228,0)'
+    box-shadow: '0px 0px 0px 0px rgba(0,0,0,0)'
+    border-radius: 2px
+    # transform: scale(0.975)
+    height: 189px
+type: 'custom:card-modder'

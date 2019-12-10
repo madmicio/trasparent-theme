@@ -69,3 +69,6 @@ darkmix:
   lumo-body-text-color: 'var(--primary-color)'
   lumo-primary-color: 'var(--primary-color)'
   paper-grey-200: 'var(--paper-card-background-color)'
+  
+# Card background
+  card-background-color: ‘var(–primary-background-color)’ 
